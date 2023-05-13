@@ -1,0 +1,49 @@
+@import url('https://fonts.google.com/specimen/Barlow+Semi+Condensed');
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #E7F1F2;
+  }
+
+  .testimonials{
+    max-width: 1440px;
+    margin: 0 au;
+    padding: 4rem;
+  }
+  .card{
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+
+  }
+  .card.purple-card{
+    background-color: hsl(263, 55%, 52%);
+    color: #E7F1F2;
+
+  }
+  .bolder-para{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .quote{
+    color: white;
+    opacity: 70%;
+  }
+  .card-header{
+    display: flex;
+    gap: 10px;
+
+  }
+  .card-name{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-name h4{
+    margin-bottom: 0;
+  }
+  .card-name h6{
+    margin-top: 0;
+  }
