@@ -13,7 +13,8 @@ body {
     padding: 4rem;
   }
   .card{
-    padding: 50px;
+    padding: 40px;
+    padding-bottom: 10px;
     border-radius: 10px;
     background-color: white;
     margin-bottom: 10px;
@@ -22,6 +23,10 @@ body {
   .card.purple-card{
     background-color: hsl(263, 55%, 52%);
     color: #E7F1F2;
+    background-image: url('./images/bg-pattern-quotation.svg');
+   background-repeat: no-repeat;
+   background-position:top right 50px;
+   background-size: 175px;
 
   }
   .bolder-para{
@@ -38,6 +43,7 @@ body {
 
   }
   .card-name{
+    margin-left: .5rem;
     display: flex;
     flex-direction: column;
   }
@@ -46,4 +52,18 @@ body {
   }
   .card-name h6{
     margin-top: 0;
+    opacity: 50%;
+  }
+  .card-header{
+    margin-top: -1.2rem;
+  }
+  .card-image{
+    margin-top: .5rem;
+  }
+  .card-image img{
+
+    border-radius: 50%;
+  }
+  .quote{
+    line-height: 1.8rem;
   }
